@@ -1,0 +1,203 @@
+Exercícios sobre estrutura condicional, dando ênfase
+nas variáveis
+
+1. Faça um algoritmo que leia os valores X, Y, Z e imprima na tela se a
+soma de X + Y é menor que Z.
+
+Algoritmo soma
+	
+Inicio
+
+	int X, Y, Z, soma; 
+
+	("Digite o valor X: ");
+	Leia X;
+	("Digite o valor Y: ");
+	Leia Y;
+	("Digite o valor Z: ");
+	Leia Z;
+	
+	soma = X + Y;
+
+	se (soma < Z){
+		Escreva("A soma é menor que Z")
+	}senao {
+		Escreva("A soma é maior que Z")
+	}
+	Fim-se
+Fim
+
+2. Faça um algoritmo que leia o nome, o sexo e o estado civil de uma
+pessoa. Caso sexo seja “M” e estado civil seja “CASADO”, solicitar o
+tempo de casada (anos).
+
+Algoritmo tempo casados
+	
+Inicio 
+	
+	char nome, sexo, estadoCivil, tempoCasado;
+
+	Escreva("Digite o nome:");
+	Leia nome;
+	Escreva("Digite o sexo:");
+	Leia sexo;
+	Escreva("Digite o estado civil:");
+	Leia estadoCivil;
+	
+	se (sexo < = m) entao
+		Escreva("Você é solteiro ou casado?)
+	Leia estadoCivil;
+	fimse
+	
+	se (estadoCivil == casado) entao
+		Escreva("Qual o tempo de casado? ")
+	senao
+		Escreva("Obrigado!")
+
+
+	Fim-se
+Fim
+
+3. Faça um algoritmo para receber um número qualquer e informar na
+tela se é par ou ímpar.
+
+Algoritmo par ou impar
+
+Inicio
+
+	int a;
+
+	Escreva("Digite o número: ")
+	Leia a;
+	
+	se (a % == 0){
+		Escreva("O número é par!")
+	}senao{
+		Escreva("O número é ímpar!")
+	}
+
+	Fim-se
+Fim
+
+4. Faça um algoritmo que leia dois valores inteiros X e Y se os valores
+forem iguais deverá se somar os dois, caso contrário multiplique X
+por Y. Ao final de qualquer um dos cálculos deve-se atribuir o
+resultado para uma variável Z e mostrar seu conteúdo na tela.
+
+Algoritmo multiplicacao
+
+Inicio
+
+	int X, Y, soma, mult;
+
+	Escreva("Digite o valor X: ")
+	Leia X;
+	Escreva("Digite o valor Y: ")
+	Leia Y;
+	
+	se (X == Y){ 
+		soma = X + Y;
+		Escreva("A soma é: ")
+	}senao{
+		mult = X * Y;
+		Escreva("A multiplicação é: ")
+	}
+
+	Fim-se
+Fim
+
+5. Encontrar o dobro de um número caso ele seja positivo e o seu triplo
+caso seja negativo, imprimindo o resultado.
+
+Algoritmo positivo e negativo 
+
+Inicio
+
+	int numA, dobro, triplo;
+
+	Escreva("Digite o número: ") 
+	Leia numA;
+
+	se (numA > 0){
+	dobro = numA * 2;
+	Escreva("O dobro do número é: ")
+	Escreva("É positivo")
+	}senao{
+	triplo = numA * 3;
+	Escreva("O triplo do número é: ");
+	Escreva("É negativo")
+	}
+
+	Fim-se
+Fim
+
+6. Escreva um algoritmo que lê dois valores booleanos (lógicos) e então
+determina se ambos são VERDADEIROS ou FALSOS.
+
+Algoritmo boolean
+
+Inicio 
+
+	n verdadeiro, falso;
+
+	se (n == verde) entao
+		é verdadeiro
+	senao 
+		é falso
+
+	Fim-se
+Fim 
+
+7. Faça um algoritmo que leia uma variável e some 5 caso seja par ou
+some 8 caso seja ímpar, imprimir o resultado desta operação.
+
+Algoritmo soma
+
+Inicio 
+
+	int X, soma;
+
+	Escreva("Digite o número: ")
+	Leia X;
+
+	se (X % 2 == 0) {
+		soma = X + 5;
+		Escreva("É par")
+	}senao{
+		soma = X + 8;
+		Escreva("É ímpar")
+	}
+
+	Fim-se
+Fim
+
+8. Escreva um algoritmo que leia três valores inteiros e diferentes e
+mostre-os em ordem decrescente.
+
+Algoritmo ordem decrescente
+
+Inicio
+	int A, B, C;
+
+	Escreva("Digite o número A: ")
+	Leia A;
+	Escreva("Digite o número B: ")
+	Leia B;
+	Escreva("Digite o número C: ")
+	Leia C;
+
+	se (A > B) && (B > C) entao
+		Escreva(A, B, C)
+fimse
+	se (A > C) && (C > B) entao
+		Escreva(A, C, B)
+fimse
+	se (B >= A) && (A > C) entao
+		Escreva(B, A, C)
+fimse
+	se (B > C) && (C > A) entao
+		Escreva(B, C, A)
+	Fim-se
+
+Fim
+	
